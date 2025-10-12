@@ -1,0 +1,9 @@
+.wrap-gallery {
+	overflow: hidden;
+	height: 200px;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 4px #333;
+}
+.wrap-gallery img {
+	width: 100%;
+}

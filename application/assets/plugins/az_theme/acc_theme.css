@@ -1,0 +1,236 @@
+.pcss3t {
+	margin: -10px;
+	padding: 0;
+	border: 0;
+	outline: none;
+	font-size: 0;
+	text-align: left;
+    border-radius: 7px;
+    background: #f1f1f1;
+}
+
+.pcss3t .tabmenu {
+	cursor: pointer;
+}
+
+.pcss3t > input {
+	position: absolute;
+	left: -9999px;
+}
+
+.pcss3t > ul {
+	list-style: none;
+	position: relative;
+	display: block;
+	/*overflow: hidden;*/
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	font-size: 14px;
+}
+
+.pcss3t > ul > li {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/*overflow: auto;*/
+	padding: 30px 20px 40px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	opacity: 0;
+	/*transition: all 0.5s;
+	-o-transition: all 0.5s;	
+	-ms-transition: all 0.5s;	
+	-moz-transition: all 0.5s;	
+	-webkit-transition: all 0.5s;*/
+}
+
+.pcss3t > .tab-content-first:checked ~ ul .tab-content-first,
+.pcss3t > .tab-content-2:checked ~ ul .tab-content-2,
+.pcss3t > .tab-content-3:checked ~ ul .tab-content-3,
+.pcss3t > .tab-content-4:checked ~ ul .tab-content-4,
+.pcss3t > .tab-content-5:checked ~ ul .tab-content-5,
+.pcss3t > .tab-content-last:checked ~ ul .tab-content-last {
+	z-index: 1;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	-webkit-transform: scale(1,1);
+	-webkit-transform: rotate(0deg);
+}
+
+.pcss3t-height-auto > ul {
+	height: auto !important;
+}
+
+.pcss3t-height-auto > ul > li {
+	position: static;
+	display: none;
+	height: auto !important;
+}
+
+.pcss3t-height-auto > .tab-content-first:checked ~ ul .tab-content-first,
+.pcss3t-height-auto > .tab-content-2:checked ~ ul .tab-content-2,
+.pcss3t-height-auto > .tab-content-3:checked ~ ul .tab-content-3,
+.pcss3t-height-auto > .tab-content-4:checked ~ ul .tab-content-4,
+.pcss3t-height-auto > .tab-content-5:checked ~ ul .tab-content-5,
+.pcss3t-height-auto > .tab-content-last:checked ~ ul .tab-content-last {
+	display: block;
+}
+
+
+.pcss3t-steps > label {
+	cursor: default;
+}
+
+@media screen and (max-width: 980px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+	.pcss3t > label {
+		display: block;
+	}
+	.pcss3t > .right {
+		float: none;
+	}
+}
+
+.pcss3t > label {	
+	padding: 0 20px;
+	background: #e5e5e5;
+	font-size: 14px;
+	line-height: 49px;
+}
+
+.pcss3t > label:hover {
+	background: #f2f2f2;
+}
+
+.pcss3t > input:checked + label {
+	background: #fff;
+}
+
+.pcss3t > ul {
+	background: #fff;
+	text-align: left;
+}
+
+.pcss3t-steps > label:hover {
+	background: #e5e5e5;	
+}
+
+.pcss3t-theme-1 > label {
+	margin: 0 5px 5px 0;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 2px rgba(0,0,0,0.2);
+	/*color: #808080;*/
+	color: #999999;
+	opacity: 0.8;
+}
+
+.pcss3t-theme-1 > label:hover {
+	/*background: #fff;*/
+	background: #144e7c;
+	color: #fff;
+	opacity: 1;
+}
+
+.pcss3t-theme-1 > input:checked + label {
+	margin-bottom: 0;
+	padding-bottom: 5px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: #144e7c;
+	opacity: 1;
+}
+
+.pcss3t-theme-1 > ul {
+	border-radius: 5px;
+	/*box-shadow: 0 3px rgba(0,0,0,0.2);*/
+}
+
+.pcss3t-theme-1 > .tab-content-first:checked ~ ul {
+	border-top-left-radius: 0;
+}
+
+@media screen and (max-width: 767px) {
+	.pcss3t-theme-1 > label {
+		margin-right: 0;
+	}
+	.pcss3t-theme-1 > input:checked + label {
+		margin-bottom: 5px;
+		padding-bottom: 0;
+		border-radius: 5px;
+	}
+	.pcss3t-theme-1 > .tab-content-first:checked ~ ul {
+		border-top-left-radius: 5px;
+	}
+}
+
+
+/*.pcss3t > ul,
+.pcss3t > ul > li {
+	min-height: 650px;
+}*/
+
+.pcss3t h4{
+	font-weight: bold;
+	color: #144e7c;
+}
+.pcss3t p{
+	font-size: 14px;
+}
+
+.pcss3t > ul.ultab-pt > li {
+	opacity: 1;
+}
+
+.pcss3t > ul.ultab-pt, .pcss3t > ul.ultab-pt > li {
+	/*height: auto;*/
+	position: relative;
+}
+
+.box-acc-mapping {
+	margin-bottom: 30px;
+}
+
+.box-acc-mapping-heading {
+	font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #b7b7b7;
+    margin-bottom: 15px;
+    padding-bottom: 7px;
+}
+	.box-acc-mapping-heading {
+		cursor: pointer;
+	}
+
+.ico-map-caret {
+	float: right;
+}
+
+.box-acc-mapping-body {
+	display: none;
+}
+.box-acc-mapping-body.bamb-open {
+	display: block;
+}
+.tab {
+	position: absolute;
+    z-index: 10;
+    padding: 5px;
+    /*min-width: 28px;*/
+    width: 28px;
+    height: 28px;
+    background: #f53c2e;
+    color: #FFF;
+    border-radius: 13px;
+    text-align: center;
+    display: grid;
+    line-height: 20px;
+    margin-top: -10px;
+    margin-left: -20px;
+}

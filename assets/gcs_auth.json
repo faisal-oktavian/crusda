@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "jovial-opus-276408",
+  "private_key_id": "1cc4d243cf1bccae290d76378fb59f190d87521b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0YbsLeqidHGsT\nwlvMk20BmxYZPvdTEx52kRo3RcfyoWmLiX3VYqbTpBYFZSIF8WVwRQsI/a9d8Fgp\nb4qri+8p62OAyp1mtZtyO8zImnhnkPbhTVBVMSIc8mhIy47NypKCD/Mr/va6KkXs\n2B9Tukzw+qhKLK/Fo2HqqNsloYzTNfiD55d1PGqhPsjRA60C18aiiQmhn9DQ+Q5/\n2yU4bPkhcLo24JrG0yaernD54+PCUv8Ou7+1FSmnnryR9gOoNXU9LCVhLorW86YS\n88kLQx0/THhbT8juQBmb2bDZ+FVdAlaw/rVRP7bALlvodUwtcTKK98pIrcLuLC2v\nSk4wuc1DAgMBAAECggEAJc1nfB/gD1EB1bnBME3jJdeBGZhbD7Ntim6dXmEG5r/S\nFTaiwuHyUV9NaCMKLtGorw8hIWi85ER2zXQ9TPc+D3xvtXGA7CH6KkYDBDVvL1Ev\nlAb2Y2wxGHzqwvq5+kHOU2iRTzKXNWufjOO8KPldn5EATM8xpQs4/YsWpjvFfgux\n+zKdXffiOvHEqeo+e20Pea80TSG6QKdMDFUzIYeNQFkTlBEyg44T7eyGm0d0qkuR\nP6VJgiQ5N7eOxpkilJwuFflQ8PC/PKbb041keHYK6G2t+lEZRoyy1VA+Q3WZcLA6\nLzglRDI1QCIhkPhZNgQNGWF0NjJPEo8wuYwQhHSEEQKBgQD4jwTy30B7sRS0KUXi\n84NyvKgpemkkmuAmTlf5EWm4CZ4lZ5RYRxuImUItJSM5PtBQaVywO0HKeqVBdL6h\nFbIdEnQzFtqJNNESwN7WGxVotpowg9LRdw3bHpDtoSGoGpTXKl7E1RaSRzbQwOYu\nBI0mtHbFCQrekAggfDqKrXzf0QKBgQC5yDIxm8RUNUTrSpzDN1QMy1Bw1Wo4tzzu\nzG/OmRcqPkdIW8H5XQJl46PkoC36BhoFtwpl+1EwX6/IHBcgaG4jf7vVlMnIvTTq\ntk9dIN+I7ZkZz/TcjqKyUChF5ctRbZowH7iP4Yot2dsPJWYD1/3n7kb8U7ESTBMV\nqEAHWYEU0wKBgQCHnRi5Hp/DHPnL1l0AF5bXiiFCCDzHsQytOb978Ek7FVxI0ju4\n8osOO3hEw2d1e1UTGnls2dfqjoINtZGwt/KnNANcQJLZm4ya68ppDPvgVwjHgZUL\nniZcMFAopuqDGoWs47wzLoQTKXG58hVkdC1DOeE3XdilV/ZnKwCR21gvkQKBgFG8\nGyEqN7EYko62D8vvLqJGXMiXjBkRvNQOy23oeoGSTsgt3mQ4IFL1WOi/9BpYzuAO\nzJtbeze+EVcHzMDsUPB7RQdNY41WeM5+kOIXEWFrrvzlOgRDGJ88lstRsybLApgD\njK54etN7Ul4ShRRR1ZpRgZeHtpKnN4pCsJDLNvgTAoGAUfUpYXJXuq+mfcH4cXuv\npVKC/FVaAi7hBzEHviOg+oWPp7MvevynsB9YVEvELoZzT3m59/9O1gZF1j0QRxVF\n2xDDa400hDpQVaVWYkqqSNYj3CjYkFBN1H3KKs2hxX3AZeYDX1n6ZeajHPUR0ZdM\nwDhv8+xKiVcyqn35MXK9jBw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "apiwebtoprint@jovial-opus-276408.iam.gserviceaccount.com",
+  "client_id": "104141383506052044109",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/apiwebtoprint%40jovial-opus-276408.iam.gserviceaccount.com"
+}

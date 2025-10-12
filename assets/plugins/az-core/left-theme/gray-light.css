@@ -1,0 +1,47 @@
+.az-ltheme-header {
+	background-color: #ece9e9;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+	background-color: #c7c6c6 !important;
+}
+
+.btn-primary {
+    background-color: #a7a5a3;
+    border-color: #778080 !important;
+}
+.az-header-toolbar {
+    color: #2f2f2f;
+}
+.container-language .az-language-list button.active {
+    background-color: #757575;
+}
+
+.account-detail .account-detail-content {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-top: 3px solid rgb(134, 133, 132);
+    border-bottom: 3px solid rgb(134, 133, 132);
+}
+.az-ltheme-body, body {
+    background-color: #fffbfb;
+}
+.az-ltheme-body .az-ltheme-left {
+    background-color: #ece9e9;
+}
+
+.az-menu ul > li:hover, .az-menu ul > li.active {
+    background-color: #f9f3f3;
+}
+.az-menu ul > li ul {
+    background-color: #fff;
+}
+.az-menu ul li a {
+	color: #313131;
+}
+.az-menu ul > li:hover > a, .az-menu ul > li.active > a, .az-menu ul > li.is-active > a {
+	color: #000000;
+}
+.az-menu {
+	color: #000;
+}

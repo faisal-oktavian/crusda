@@ -1,0 +1,118 @@
+.box-queue {
+	color: #000;
+	min-height: 260px;
+	position: relative;
+}
+	.box-queue-1 {
+		background: #dff5ff;
+	}
+		.box-queue-1 .box-queue-head {
+			background: #0a99ff;
+		}
+	.box-queue-2 {
+		background: #f0f4ff
+	}
+		.box-queue-2 .box-queue-head {
+			background: #4e85ff;
+		}
+	.box-queue-3 {
+		background: #dff5ff;
+	}
+		.box-queue-3 .box-queue-head {
+			background: #a2dcf7;
+		}
+
+.box-queue-body {
+	padding: 20px;
+	text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+}
+.box-queue-head {
+	font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    color: #FFF;
+}
+.box-queue-foot {
+	padding: 10px;
+}
+	.box-queue-foot button {
+		width: 100%;
+		font-size: 14px;
+    	background: #1979C5;
+    	border-color: #1979C5;
+	}
+.box-total-queue {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	padding: 10px;
+}
+.grand-total-queue {
+	font-size: 20px;
+	text-align: right;
+}
+
+.box-list-customer {
+	height: 214px;
+	overflow-y: auto;
+}
+
+.box-deskprint {
+	margin-top: 6px;
+}
+.panel-customer {
+	margin-bottom: 15px;
+	min-height: 260px !important;
+}
+
+.box-queue-foot .row {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+	.box-queue-foot .col-md-6 {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+.img-employee {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+	.img-employee img {
+		width: 100px;
+	}
+
+#table_payroll {
+	font-size: 12px;
+}
+.box-bonus {
+	color: #16a716;
+}
+.box-penalty {
+	color: red;
+}
+.box-checklog-status {
+	color: grey;
+}
+
+.container-calculate {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #ffffffdb;
+	z-index: 99999;
+	text-align: center;
+	display: none;
+}
+.box-calculate {
+	display: inline-block;
+    width: 500px;
+    margin-top: 300px;
+}

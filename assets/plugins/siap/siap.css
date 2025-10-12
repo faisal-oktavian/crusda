@@ -1,0 +1,95 @@
+@font-face {
+   font-family: 'futura';
+   src: url(../../fonts/futura.ttf) format("truetype");
+}
+html, body {
+	margin: 0;
+	font-family: 'futura';
+}
+.box-print {
+	width: 80mm;
+}
+
+@media print {
+ .box-print { 
+  	width: auto;
+	}
+}
+
+.box {
+	text-align: center;
+	margin-top: 300px;
+	font-family: 'futura';
+}
+.box-title {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.input-field {
+	height: 60px;
+    width: 500px;
+    padding: 0px 15px;
+    font-family: 'futura';
+    border-radius: 40px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0px 0px 9px 0px #abaaaa;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+	font-weight: bold;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #cccccc;
+  opacity: 1; /* Firefox */
+}
+.box-name {
+	font-size: 14px;
+	margin-top: 20px;
+}
+.box-logo {
+	margin-bottom: 30px;
+}
+.box-btn {
+	margin-top: 20px;
+}
+.btn-ambil, .btn-take-queue {
+	background: #2095F2;
+    border: none;
+    padding: 15px 45px;
+	font-size: 22px;
+    color: #fff;
+    line-height: 1;
+    border-radius: 50px;
+    outline: none !important;
+    font-family: 'futura';
+}
+	.btn-ambil:hover, .btn-take-queue:hover {
+		cursor: pointer;
+		background: #1979C5;
+	}
+	.btn-ambil.non-active {
+		/*background: #AAAAAA;*/
+	}
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 15px;
+	font-size: 18px;
+	background: #EBEBEB;
+}
+.table-footer img {
+	padding-right: 10px;
+	height: 40px;
+}
+.line {
+	height: 44px;
+    width: 2px;
+    background: #adadad;
+    display: inline-block;
+}
+
+.btn-take-queue {
+	display: none;
+}

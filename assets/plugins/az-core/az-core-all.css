@@ -1,0 +1,143 @@
+a {
+	color: #2196F3;
+}
+
+.box-product {
+	height: auto;
+}
+.box-product-image img {
+	height: auto;
+}
+
+.grecaptcha-badge {
+	display: none;
+}
+
+.box-article-image {
+	overflow: hidden;
+	height: 250px;
+}
+	.box-article-image img {
+		width: 100%;
+	}
+.box-article {
+	margin-bottom: 30px;
+}
+.box-article-text {
+	background: #f7f7f7;
+    padding: 10px;
+    color: #333;
+}
+	.box-article-title {
+		font-size: 20px;
+	    font-weight: bold;
+	    color: #2196F3;
+	}
+	.box-article-date {
+		text-align: right;
+	    font-size: 10px;
+	    margin-top: 10px;
+	    color: #afafaf;
+	}
+
+.article-detail-list {
+	font-size: 10px;
+    margin-bottom: 10px;
+    color: #afafaf;
+}
+
+
+.article-detail-list,
+.container-other-article>div,
+.container-share .share-content,
+.container-share .share-text {
+    display: inline-block;
+    vertical-align: middle
+}
+.container-share ul {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0
+}
+
+.container-share ul li {
+    display: inline-block;
+    padding: 3px
+}
+
+.container-share ul li img {
+    height: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4)
+}
+
+.container-share {
+	margin-top: 40px;
+}
+
+.loh-step-list.nonactive {
+	background: #dedede;
+}
+
+.slideshow {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+}
+
+.slideshow.slick-initialized {
+    visibility: visible;
+    opacity: 1;    
+}
+
+.container-voucher {
+	position: relative;
+}
+	.container-voucher button {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+
+.box-voucher-delivery {
+	display: none;
+}
+
+.txt-before-discount {
+	color: #8a8a8a;
+	text-decoration: line-through;
+}
+
+@media (max-width: 767px) {
+	.box-product {
+		height: auto;
+	}
+	.box-product-image img {
+		height: auto;
+	}
+	.col-category-product {
+		margin-bottom: 0px;
+	}
+	.box-product-name {
+		line-height: 1;
+	}
+	.container-breadcrumb {
+		display: block;
+	}
+	.container-step {
+		/*display: none;*/
+		text-align: center;
+	}
+	.container-breadcrumb-text {
+		margin-top: 0px;
+		display: none;
+	}
+	.modal-dialog {
+		top: 90px;
+	}
+}
+@media (max-width: 992px) {
+	.col-category-product {
+		border: 1px solid #eae9e9;
+	}
+}
