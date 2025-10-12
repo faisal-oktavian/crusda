@@ -14,7 +14,7 @@
             'submenu' => array(),
         ),
         array(
-            "name" => "sistem_gudang",
+            "name" => "warehouse",
             "title" => "Sistem Gudang",
             "icon" => "box",
             "url" => "",
@@ -26,14 +26,14 @@
                     "submenu" => array(
                         array(
                             "name" => "product",
-                            "title" => "Barang",
+                            "title" => "Produk",
                             "url" => "product",
                             "submenu" => array()
                         ),
                         array(
-                            "name" => "category_product",
+                            "name" => "product_category",
                             "title" => "Kategori Produk",
-                            "url" => "category_product",
+                            "url" => "product_category",
                             "submenu" => array()
                         ),
                         array(
