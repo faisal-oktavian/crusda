@@ -5,7 +5,7 @@
 <html>
     <head>
     	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <link rel="shortcut icon" href="<?php echo base_url().AZAPP_FRONT.'assets/logo/logo saja png - putih.png';?>" />
+        <link rel="shortcut icon" href="<?php echo base_url().AZAPP_FRONT.'assets/logo/logo saja png.png';?>" />
         <title><?php echo az_get_config('app_name');?> - LOGIN</title>
         <link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/bootstrap/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/az-core/az-core.css" type="text/css" />
@@ -21,7 +21,8 @@
             }
             .login-container-content {
                 box-shadow: 0 5px 13px 3px rgba(166, 166, 166, 0.4);
-                background: #fff;
+                /* background: #fff; */
+                background-color: rgba(255, 255, 255, 0.6);
             }
             .btn-three {
                 background: #6acbfc;
@@ -61,7 +62,7 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background-color: rgba(255, 255, 255, 0.9); /* 0.4 = 40% transparan → bg jadi 60% opacity */
+                background-color: rgba(255, 255, 255, 0.8); /* 0.4 = 40% transparan → bg jadi 60% opacity */
                 pointer-events: none; /* supaya tidak mengganggu klik */
             }
         </style>
@@ -76,7 +77,7 @@
                         <div class="login-logo">
                             <img src="<?php echo base_url().AZAPP_FRONT;?>assets/logo/logo full png.png"/>
                         </div>
-                        <form method="POST" action="login/process">
+                        <form method="POST" action="<?php echo base_url();?>/login/process">
                             <?php 
                                 $err_login = $this->session->flashdata("error_login");
                                 if (strlen($err_login) > 0) {

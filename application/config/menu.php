@@ -12,169 +12,132 @@
                 ),
             ),
             'submenu' => array(),
-        ), 
+        ),
         array(
-            "name" => "master",
-            "title" => "Master",
-            "icon" => "database",
+            "name" => "sistem_gudang",
+            "title" => "Sistem Gudang",
+            "icon" => "box",
             "url" => "",
             "submenu" => array(
                 array(
-                    "name" => "master_urusan_pemerintah",
-                    "title" => "Urusan Pemerintah",
-                    "url" => "master_urusan_pemerintah",
-                    "submenu" => array()
-                ),
-                array(
-                    "name" => "master_bidang_urusan",
-                    "title" => "Bidang Urusan",
-                    "url" => "master_bidang_urusan",
-                    "submenu" => array()
-                ),
-                array(
-                    "name" => "master_program",
-                    "title" => "Program",
-                    "url" => "master_program",
-                    "submenu" => array()
-                ),
-                array(
-                    "name" => "master_kegiatan",
-                    "title" => "Kegiatan",
-                    "url" => "master_kegiatan",
-                    "submenu" => array()
-                ),  
-                array(
-                    "name" => "master_sub_kegiatan",
-                    "title" => "Sub Kegiatan",
-                    "url" => "master_sub_kegiatan",
-                    "submenu" => array()
-                ),
-                array(
-                    "name" => "master_paket_belanja",
-                    "title" => "Paket Belanja",
-                    "url" => "master_paket_belanja",
-                    "submenu" => array(),
-                    'role' => array(
+                    "name" => "master",
+                    "title" => "Master",
+                    "url" => "",
+                    "submenu" => array(
                         array(
-                            'role_name' => 'role_view_paket_belanja',
-                            'role_title' => 'Hanya lihat data'
+                            "name" => "product",
+                            "title" => "Barang",
+                            "url" => "product",
+                            "submenu" => array()
                         ),
-                    ),
+                        array(
+                            "name" => "category_product",
+                            "title" => "Kategori Produk",
+                            "url" => "category_product",
+                            "submenu" => array()
+                        ),
+                        array(
+                            "name" => "material_unit",
+                            "title" => "Satuan Stok",
+                            "url" => "material_unit",
+                            "submenu" => array()
+                        ),
+                        array(
+                            "name" => "material_unit_detail",
+                            "title" => "Satuan Stok Detail",
+                            "url" => "material_unit_detail",
+                            "submenu" => array()
+                        ),
+                    )
                 ),
                 array(
-                    "name" => "master_akun_belanja",
-                    "title" => "Akun Belanja",
-                    "url" => "master_akun_belanja",
-                    "submenu" => array(),
+                    "name" => "stock",
+                    "title" => "Stok",
+                    "url" => "",
+                    "submenu" => array(
+                        array(
+                            "name" => "stock",
+                            "title" => "Daftar Stok",
+                            "url" => "stock",
+                            "submenu" => array()
+                        ),
+                        array(
+                            "name" => "minimum_stock",
+                            "title" => "Stok Minimal",
+                            "url" => "minimum_stock",
+                            "submenu" => array()
+                        ),
+                        array(
+                            "name" => "stock_history",
+                            "title" => "Riwayat Stok",
+                            "url" => "stock_history",
+                            "submenu" => array()
+                        ),
+                        array(
+                            "name" => "stock_opname",
+                            "title" => "Stok Opname",
+                            "url" => "stock_opname",
+                            "submenu" => array()
+                        ),
+                    )
                 ),
-                array(
-                    "name" => "master_kategori",
-                    "title" => "Kategori",
-                    "url" => "master_kategori",
-                    "submenu" => array()
-                ),
-                array(
-                    "name" => "master_sub_kategori",
-                    "title" => "Sub Kategori",
-                    "url" => "master_sub_kategori",
-                    "submenu" => array()
-                ),
-                array(
-                    "name" => "master_kendaraan",
-                    "title" => "Kendaraan",
-                    "url" => "master_kendaraan",
-                    "submenu" => array()
-                ),
-                array(
-                    "name" => "master_ruang",
-                    "title" => "Ruang",
-                    "url" => "master_ruang",
-                    "submenu" => array()
-                ),
-                array(
-                    "name" => "master_satuan",
-                    "title" => "Satuan",
-                    "url" => "master_satuan",
-                    "submenu" => array()
-                ),
-                array(
-                    "name" => "master_sumber_dana",
-                    "title" => "Sumber Dana",
-                    "url" => "master_sumber_dana",
-                    "submenu" => array()
-                ),
-                array(
-                    "name" => "master_kode_rekening",
-                    "title" => "Kode Rekening",
-                    "url" => "master_kode_rekening",
-                    "submenu" => array()
-                ),
-            ),
+            )
         ),
         array(
-            "name" => "realisasi_anggaran",
-            "title" => "Realisasi Anggaran",
+            "name" => "oc_cashier",
+            "title" => "Buka/Tutup Kasir",
+            "icon" => "dollar-sign",
+            "url" => "oc_cashier",
+            'submenu' => array(),
+        ),
+        array(
+            "name" => "pos",
+            "title" => "Penjualan",
             "icon" => "shopping-cart",
-            "url" => "realisasi_anggaran",
+            "url" => "pos",
             'submenu' => array(),
-            'role' => array(
+        ),
+        array(
+            "name" => "purchasing",
+            "title" => "Pembelian",
+            "icon" => "shopping-cart",
+            "url" => "purchasing",
+            "submenu" => array(),
+            "role" => array(
                 array(
-                    'role_name' => 'role_bypass',
-                    'role_title' => 'Bisa realisasi anggaran sebelum bulan RAK'
+                    'role_name' => 'purchase_order',
+                    'role_title' => 'Pemesanan'
                 ),
                 array(
-                    'role_name' => 'role_view_realisasi_anggaran',
-                    'role_title' => 'Hanya lihat data'
+                    'role_name' => 'purchase_receipt',
+                    'role_title' => 'Penerimaan'
                 ),
-            ),
-        ),
-        array(
-            "name" => "verifikasi_dokumen",
-            "title" => "Verifikasi Dokumen",
-            "icon" => "user",
-            "url" => "verifikasi_dokumen",
-            'submenu' => array(),
-            'role' => array(),
-        ),
-        array(
-            "name" => "npd",
-            "title" => "Nota Pencairan Dana",
-            "icon" => "file",
-            "url" => "npd",
-            'submenu' => array(),
-            'role' => array(
                 array(
-                    'role_name' => 'role_view_npd',
-                    'role_title' => 'Hanya lihat data'
+                    'role_name' => 'purchase_invoice',
+                    'role_title' => 'Faktur'
                 ),
-            ),
+            )
         ),
         array(
-            "name" => "pembayaran",
-            "title" => "Pembayaran",
-            "icon" => "credit-card",
-            "url" => "pembayaran",
+            "name" => "income_expense",
+            "title" => "Pemasukan/Pengeluaran",
+            "icon" => "money-bill-wave",
+            "url" => "income_expense",
             'submenu' => array(),
         ),
         array(
-            "name" => "evaluasi_anggaran",
-            "title" => "Evaluasi Anggaran",
-            "icon" => "check-square",
-            "url" => "evaluasi_anggaran",
+            "name" => "customer",
+            "title" => "Manajemen Pelanggan",
+            "icon" => "user-friends",
+            "url" => "customer",
             'submenu' => array(),
         ),
         array(
-            "name" => "npd_panjer",
-            "title" => "NPD Panjer",
-            "icon" => "file",
-            "url" => "npd_panjer",
+            "name" => "supplier",
+            "title" => "Manajemen Supplier",
+            "icon" => "users",
+            "url" => "supplier",
             'submenu' => array(),
-            'role' => array(
-                array(
-                    'role_name' => 'role_view_npd_panjer',
-                    'role_title' => 'Hanya lihat data'
-                ),
-            ),
         ),
         array(
             "name" => "report",
@@ -182,51 +145,55 @@
             "url" => "report",
             "icon" => "file",
             "submenu" => array(),
-            'role' => array(
+            "role" => array(
                 array(
-                    'role_name' => 'role_report_realisasi_anggaran',
-                    'role_title' => 'Laporan Realisasi Anggaran',
+                    'role_name' => 'acc_report_acc',
+                    'role_title' => 'Laporan Akuntansi'
                 ),
                 array(
-                    'role_name' => 'role_report_sisa_realisasi_anggaran',
-                    'role_title' => 'Laporan Sisa Realisasi Anggaran',
+                    'role_name' => 'acc_report_sales',
+                    'role_title' => 'Laporan Penjualan'
                 ),
                 array(
-                    'role_name' => 'role_report_evaluasi_anggaran',
-                    'role_title' => 'Laporan Evaluasi Anggaran',
+                    'role_name' => 'acc_report_purchase',
+                    'role_title' => 'Laporan Pembelian'
                 ),
-            ),
+                array(
+                    'role_name' => 'acc_report_asset',
+                    'role_title' => 'Laporan Aset'
+                ),
+                array(
+                    'role_name' => 'acc_report_bank',
+                    'role_title' => 'Laporan Bank'
+                ),
+                array(
+                    'role_name' => 'acc_report_tax',
+                    'role_title' => 'Laporan Pajak'
+                ),
+            )
         ),
         array(
-            "name" => "information",
-            "title" => "Informasi",
-            "icon" => "bullhorn",
-            "url" => "information",
-            'submenu' => array(),
-        ),
-        array(
-            "name" => "manual_book",
-            "title" => "Buku Petunjuk",
-            "icon" => "file-pdf",
-            "url" => "manual_book",
-            'submenu' => array(),
-        ),
-        array(
-            "name" => "user",
-            "title" => azlang("User"),
-            "icon" => "user",
+            "name" => "setting",
+            "title" => "Pengaturan",
+            "icon" => "cogs",
             "url" => "",
             "submenu" => array(
                 array(
-                    "name" => "user_user",
-                    "title" => azlang("Tambah/Edit Pengguna"),
+                    "name" => "user",
+                    "title" => "Pengguna",
                     "url" => "user",
                     "submenu" => array()
                 ),
                 array(
-                    "name" => "user_user_role",
-                    "title" => azlang("Hak Akses"),
+                    "name" => "user_role",
+                    "title" => "Hak Akses",
                     "url" => "user_role",
+                    "submenu" => array()
+                ),
+                array(
+                    "name" => "information",
+                    "title" => "Toko",
+                    "url" => "information",
                     "submenu" => array()
                 ),
             )
