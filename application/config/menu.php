@@ -37,15 +37,21 @@
                             "submenu" => array()
                         ),
                         array(
-                            "name" => "material_unit",
+                            "name" => "product_unit",
                             "title" => "Satuan Stok",
-                            "url" => "material_unit",
+                            "url" => "product_unit",
                             "submenu" => array()
                         ),
                         array(
-                            "name" => "material_unit_detail",
+                            "name" => "product_unit_detail",
                             "title" => "Satuan Stok Detail",
-                            "url" => "material_unit_detail",
+                            "url" => "product_unit_detail",
+                            "submenu" => array()
+                        ),
+                        array(
+                            "name" => "warehouse",
+                            "title" => "Gudang",
+                            "url" => "warehouse",
                             "submenu" => array()
                         ),
                     )
